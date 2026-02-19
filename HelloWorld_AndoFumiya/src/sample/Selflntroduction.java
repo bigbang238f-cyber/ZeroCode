@@ -1,7 +1,10 @@
 package sample;
 
 public class Selflntroduction {
-
+	/**********************************************************************************
+	* [概要] 自己紹介処理
+	* [詳細] 名前・年齢・趣味などをコンソール出力する
+	**********************************************************************************/
 	public static void main(String[] args) {
 		// 氏名
 		String name = "安藤 文哉";
@@ -18,7 +21,6 @@ public class Selflntroduction {
 		System.out.println("私の名前は" + name + "です。");
 		System.out.println("年齢は" + age + "歳です。");
 		System.out.println("趣味は" + hobby + "です。");
-		
 		
 	}
 
