@@ -3,23 +3,23 @@ package curriculum.a;
 public class Question1 {
 
 	public static void main(String[] args) {
-		byte byteNum; // byte 型の変数 byteNum を宣言
+		byte byteNum = 0; //変数byteNumの初期値を設定
 		byteNum = 10; // 変数 byteNum に 10 を代入
-		short shortNum; // short 型の変数 sortNum を宣言
+		short shortNum = 0; // 変数shortNumの初期値を設定
 		shortNum = 100; // 変数 shortNum に 100 を代入
-		int intNum; // int 型の変数 intNum を宣言
+		int intNum = 0; // 変数intNumの初期値を設定
 		intNum = 1000; // 変数 intNum に 1000 を代入
-		long longNum; // long 型の変数 longNum を宣言
+		long longNum = 0L; // 変数longNumの初期値を設定
 		longNum = 10000; // 変数 longNum に 10000 を代入
-		float floatNum; // float 型の変数 floatNum を宣言
+		float floatNum = 0.0f; // 変数floatNumの初期値を設定
 		floatNum = 9.5f; // 変数 floatNum に 9.5 を代入
-		double doubleNum; // double 型の変数 doubleNum を宣言
+		double doubleNum = 0.0; // 変数doubleNumの初期値を設定
 		doubleNum = 10.5; // 変数 doubleNum に 10.5 を代入
-		char letter; // char 型の変数 letter を宣言
+		char letter = 'u0000'; // 変数letterの初期値を設定
 		letter = 'a'; // 変数 letter に a を代入
-		String letters; // String 型の変数 Stringletters を宣言
+		String letters = null; // 変数lettersの初期値を設定
 		letters = "ハロー"; // 変数 letters に ハロー を代入
-		boolean isBoolean; // boolean 型の変数 に isBoolean を宣言
+		boolean isBoolean = false; // 変数isBooleanの初期値を設定
 		isBoolean = true; // 変数 isBoolean に true を代入
 		System.out.println(byteNum + shortNum + intNum); //11110を出力
 		System.out.println(byteNum + byteNum); //20を出力
@@ -56,8 +56,9 @@ public class Question1 {
 		String message = (x >= 10) ? "OK" : "NG"; //x が 10 以上なら "OK"、そうでなければ "NG" を表示
 		System.out.println(message); //判定の message を出力
 		String text = "私はJavaがすきです。Javaは楽しい！"; //元の文を text に 代入
-		text.replace("Java", "Python"); //「Java」 を 「Python」 に置き換え
-		System.out.println(text); //置き換え後の 文を 出力
+		String replacedText = text.replace("Java", "Python"); // 結果を代入する
+		System.out.println(replacedText); // 代入した変数を出力する
+		
 		
 		
 		
